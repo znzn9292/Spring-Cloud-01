@@ -1,0 +1,6 @@
+token:
+  expiration-time: 864000000
+  secret: my-token-prod
+
+gateway:
+  ip: 192.168.45.242

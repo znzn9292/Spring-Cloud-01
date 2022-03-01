@@ -8,4 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: file:///Users/user/Documents/znzn/study/SpringCloud/git-local-repo
+          uri: https://github.com/znzn9292/Spring-Cloud-01.git
+#          uri: file:///Users/user/Documents/znzn/study/SpringCloud/git-local-repo

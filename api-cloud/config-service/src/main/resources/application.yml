@@ -4,9 +4,17 @@ server:
 spring:
   application:
     name: config-service
+  profiles:
+    active: native
+
   cloud:
     config:
       server:
+
+        # 파일 시스템 Config 파일 접근
+        native:
+          search-locations: file://${user.home}/Documents/znzn/study/SpringCloud
+
+        # Git 저장소 Config 파일 접근
         git:
           uri: https://github.com/znzn9292/Spring-Cloud-01.git
-#          uri: file:///Users/user/Documents/znzn/study/SpringCloud/git-local-repo
